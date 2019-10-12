@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441977524759",
+    "firebase_url": "https://ubarparking.firebaseio.com",
+    "project_id": "ubarparking",
+    "storage_bucket": "ubarparking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441977524759:android:e5251054c908dcca",
+        "android_client_info": {
+          "package_name": "com.mehedi.user.ubarparkingapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441977524759-elu0cdru57sku4j4habrvb8q1euafbj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvAmz9Eqk1ulUOuxpL-zoN5bCDcc2d-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441977524759-elu0cdru57sku4j4habrvb8q1euafbj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

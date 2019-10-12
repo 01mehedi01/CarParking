@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2E0F5"
+    tools:context="com.mehedi.user.ubarparkingapps.Activity.SearchPostActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/search_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:id="@+id/category_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="50dp"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:text="Search post"
+            android:textColor="#000"
+            android:textSize="21sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:layout_marginRight="15dp"
+       android:layout_marginLeft="15dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:gravity="bottom"
+           android:layout_weight=".5"
+           android:layout_marginRight="15dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+          >
+
+       <EditText
+           android:drawableLeft="@drawable/search"
+           android:paddingLeft="15dp"
+           android:background="@drawable/searceedittext"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:hint="Search by location"
+           android:id="@+id/searchbylocation"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:gravity="left"
+           android:layout_marginRight="15dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+       <Button
+           android:gravity="left"
+           android:background="@drawable/sericone"
+           android:layout_width="60dp"
+           android:layout_height="50dp"
+           android:textSize="20dp"
+           android:textStyle="italic"
+           android:onClick="SearchResult"/>
+       </LinearLayout>
+   </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searcepostrecyclerview">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

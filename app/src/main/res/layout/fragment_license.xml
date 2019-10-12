@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F2C5F7"
+    tools:context=".fragment.LicenseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/textinputlicense"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/password">
+
+
+        <android.support.design.widget.TextInputEditText
+
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="license"
+            android:inputType="text"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/textinputcontac"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/password">
+
+
+            <android.support.design.widget.TextInputEditText
+
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="phone number"
+                android:inputType="text"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:textColor="@color/white"
+            android:background="@drawable/regierripplebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>
